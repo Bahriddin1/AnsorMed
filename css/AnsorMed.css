@@ -20,6 +20,11 @@
   padding-bottom: 25px;
 }
 
+.header-div:active{
+  opacity: 0.6;
+}
+
+
 .icon-img {
 width: 50px;
 height: 49.94px;
@@ -44,6 +49,12 @@ height: 33px;
   color: #222222;
 }
 
+.ansormed-link:hover{
+  color: #DE2E54;
+}
+
+
+
 ul  {
   list-style-type: none;
 
@@ -60,6 +71,14 @@ font-style: normal;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #222222;
+}
+.site-links a:active{
+  color: #DE2E54;
+  opacity: 0.6;
+}
+
+.site-links a:hover{
+  color: #DE2E54;
 }
 
 .site-links :not(:last-child){
@@ -99,6 +118,21 @@ margin-right: 32px;
   box-sizing: border-box;
   border-radius: 8px;
   color: #fff;
+}
+
+.main-link:hover{
+  background-color: #FFFFFF;
+border: 2px solid #DE2E54;
+box-sizing: border-box;
+border-radius: 8px;
+color: #DE2E54;
+}
+
+.main-link:active{
+border-color:rgba(222, 46, 84, 0.6); ;
+  background-color: rgba(222, 46, 84, 0.6);
+  border-radius: 8px;
+  color: #ffffff;
 }
 
 /* HERO */
@@ -255,6 +289,7 @@ margin-right: 32px;
   background-color: #0EB4C1;
 }
 
+
 .reception-heading {
   font-family: Open Sans Condensed;
   font-style: normal;
@@ -285,6 +320,20 @@ margin-right: 32px;
   margin-right: 40px;
   color: #FFFFFF;
 
+}
+.reception-link:hover{
+  background: #DE2E54;
+  border: 2px solid #DE2E54;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: #FFFFFF;
+}
+.reception-link:active{
+ /*  background-color: #DE2E54; */
+  opacity: 0.6;
+  border: 2px solid #DE2E54;
+  box-sizing: border-box;
+  border-radius: 8px;
 }
 
 
